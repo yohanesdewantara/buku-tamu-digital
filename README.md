@@ -180,7 +180,7 @@ php artisan db:seed --class=GuestDummySeeder
 
 ## 📄 Lisensi
 
-Bebas digunakan untuk kebutuhan internal/pendidikan. Tambahkan lisensi pilihan Anda bila diperlukan.
+Bebas digunakan untuk kebutuhan internal/pendidikan.
 
 ---
 
