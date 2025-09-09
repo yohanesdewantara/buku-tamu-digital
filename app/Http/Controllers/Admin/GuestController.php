@@ -75,16 +75,20 @@ class GuestController extends Controller
     {
         $data = $request->validated();
 
-        // Handle photo upload
-        if ($request->hasFile('photo')) {
-            // Delete old photo
-            if ($guest->photo) {
-                Storage::disk('public')->delete($guest->photo);
-            }
-            $data['photo'] = $request->file('photo')->store('guests/photos', 'public');
+        // jika user tidak mengisi ulang TTD, JANGAN timpa nilai lama
+        if (!$request->filled('signature')) {
+            unset($data['signature']); // abaikan field ini saat update
         }
 
+        // opsional: jika user centang "hapus TTD", maka kosongkan
+        if ($request->boolean('clear_signature')) {
+            $data['signature'] = null;
+        }
+
+        // ... (logic re-encode foto tetap seperti sebelumnya)
+
         $guest->update($data);
+
 
         return redirect()->route('admin.guests.index')
             ->with('success', 'Data tamu berhasil diperbarui.');

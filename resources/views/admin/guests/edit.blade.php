@@ -9,6 +9,12 @@
                     class="space-y-4">
                     @csrf @method('PUT')
                     @include('partials.guest-form-fields', ['guest' => $guest])
+                      <div class="mt-6 flex items-center justify-end gap-3">
+        {{-- Tombol Batal (link) --}}
+        <a href="{{ route('admin.guests.index') }}"
+           class="inline-flex items-center px-4 py-2 rounded-md border border-gray-300 bg-white text-gray-700 hover:bg-gray-50">
+            Batal
+        </a>
                     <div class="flex justify-end">
                         <button class="bg-indigo-600 text-white px-4 py-2 rounded">Update</button>
                     </div>

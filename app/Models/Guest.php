@@ -121,6 +121,6 @@ class Guest extends Model
             return null;
         if (Str::startsWith($this->signature, 'data:image'))
             return $this->signature;
-        return Storage::disk('public')->url($this->signature);
+        return Storage::url($this->signature);
     }
 }
