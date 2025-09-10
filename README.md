@@ -178,12 +178,6 @@ php artisan db:seed --class=GuestDummySeeder
 
 ---
 
-## 📄 Lisensi
-
-Bebas digunakan untuk kebutuhan internal/pendidikan.
-
----
-
 ## 👤 Kredit
 
 Dikembangkan menggunakan Laravel 10, Breeze, Laravel Excel, DOMPDF, Tailwind, Chart.js.
