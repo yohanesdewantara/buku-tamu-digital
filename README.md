@@ -1,4 +1,4 @@
-# 📘 Buku Tamu Digital (Laravel 10)
+# 📘 Buku Tamu Digital (Laravel 10) Untuk Tugas Pentest Nemo
 
 Aplikasi Buku Tamu Digital dengan autentikasi (Laravel Breeze), manajemen tamu (CRUD), filter & pencarian, laporan (export Excel/PDF), dashboard statistik (Chart.js), upload foto, dan tanda tangan digital.
 
