@@ -12,8 +12,8 @@ Aplikasi Buku Tamu Digital dengan autentikasi (Laravel Breeze), manajemen tamu (
 
 ## 🔄 Alur Singkat Pemakaian
 - Login sesuai role.
-- Resepsionis → Data Tamu → Tambah Tamu (opsional: Simpan TTD sebelum simpan).
-- Admin → pantau Dashboard, kelola tamu (CRUD), Laporan (Export Excel/PDF), dan Manajemen User (CRUD).
+- **Resepsionis** → Data Tamu → Tambah Tamu (opsional: Simpan TTD sebelum simpan).
+- **Admin** → pantau Dashboard, kelola tamu (CRUD), Laporan (Export Excel/PDF), dan Manajemen User (CRUD).
 
 ## 🧰 Tech Stack
 - PHP 8.1+, **Laravel 10**
