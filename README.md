@@ -87,13 +87,29 @@ Buka `http://127.0.0.1:8000`
 
 
   * Data Tamu (CRUD + cari/filter)
+<img width="1919" height="884" alt="Screenshot 2025-09-11 182935" src="https://github.com/user-attachments/assets/c920d4b8-e81d-44fe-93a8-4dcafbbc0da1" />
+
   * Laporan (filter + export Excel/PDF)
+<img width="1912" height="887" alt="Screenshot 2025-09-11 182942" src="https://github.com/user-attachments/assets/c5e57535-f5f5-4bb8-9e3c-1a591c14b077" />
+
   * Manajemen User (Tambah/Edit/Hapus user & role)
+<img width="1912" height="887" alt="Screenshot 2025-09-11 182950" src="https://github.com/user-attachments/assets/30ad6f3f-a624-46c3-bede-b749037a726d" />
+<img width="1914" height="885" alt="Screenshot 2025-09-11 183003" src="https://github.com/user-attachments/assets/a3538f98-eb00-4239-8c94-c387f786a6ca" />
+
+
 
 * **Resepsionis**
 
   * Dashboard ringkas (ringkasan hari ini, input saya)
+<img width="1916" height="896" alt="Dashboard User" src="https://github.com/user-attachments/assets/19bcf88a-de9f-4b5b-aea7-a0bbba65614c" />
+
   * Data Tamu (Tambah, Lihat, Cari/Filter)
+<img width="1909" height="896" alt="Data tamu user" src="https://github.com/user-attachments/assets/9c9c2c90-2f3f-4414-ae4e-2f6f2bbbc087" />
+<img width="1908" height="889" alt="Tambah Tamu" src="https://github.com/user-attachments/assets/ba17dd6b-796e-4e23-89fd-d4758ed23c23" />
+<img width="1905" height="889" alt="Tambah Tamu (2)" src="https://github.com/user-attachments/assets/f1a8c41f-697e-4854-89bf-499aae6f3b1e" />
+
+
+
 
 ---
 
