@@ -27,7 +27,7 @@ Aplikasi Buku Tamu Digital dengan autentikasi (Laravel Breeze), manajemen tamu (
 
 ## 🚀 Quick Start
 
-> **Prasyarat:** PHP 8.1+, Composer, Node.js, MySQL, phpMyAdmin (opsional)
+> **Prasyarat:** PHP 8.1+, Composer, Node.js, MySQL, phpMyAdmin (opsional) cuman kalau saya pakai  phpMyAdmin😃
 
 ```bash
 # clone
