@@ -82,6 +82,10 @@ Buka `http://127.0.0.1:8000`
 * **Admin**
 
   * Dashboard (statistik, grafik, top instansi, tamu terbaru)
+<img width="1917" height="885" alt="Dashboard Admin" src="https://github.com/user-attachments/assets/b34f6ad2-1b3a-45b4-8f32-f5ea88b51643" />
+<img width="1911" height="879" alt="Dashboard Admin (2)" src="https://github.com/user-attachments/assets/9ec4a987-13df-450a-9df8-aa31f7fb834d" />
+
+
   * Data Tamu (CRUD + cari/filter)
   * Laporan (filter + export Excel/PDF)
   * Manajemen User (Tambah/Edit/Hapus user & role)
@@ -182,7 +186,8 @@ php artisan db:seed --class=GuestDummySeeder
 
 Dikembangkan menggunakan Laravel 10, Breeze, Laravel Excel, DOMPDF, Tailwind, Chart.js.
 Admin default: `admin@bukutamu.com` / `password`
+---
 
-````
+
 
 
