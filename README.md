@@ -52,13 +52,6 @@ php artisan storage:link
 * Buka **phpMyAdmin** → buat DB `buku_tamu_digital` (jika belum)
 * Tab **Import** → pilih file SQL di: `database/backups/buku_tamu_digital_YYYY-MM-DD.sql` → **Go**
 
-**CLI (alternatif):**
-
-```bash
-mysql -u root -p -e "CREATE DATABASE IF NOT EXISTS buku_tamu_digital"
-mysql -u root -p buku_tamu_digital < database/backups/buku_tamu_digital_YYYY-MM-DD.sql
-```
-
 ### Opsi B — Migrate & Seed (tanpa backup)
 
 ```bash
