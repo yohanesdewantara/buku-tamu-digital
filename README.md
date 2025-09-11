@@ -47,12 +47,12 @@ php artisan key:generate
 php artisan storage:link
 ````
 
-### Opsi A — Import Database Backup (direkomendasikan untuk lihat data langsung)
+### Opsi A - Import Database Backup (direkomendasikan untuk lihat data langsung) kalau saya biasanya pakai opsi ini
 
 * Buka **phpMyAdmin** → buat DB `buku_tamu_digital` (jika belum)
 * Tab **Import** → pilih file SQL di: `database/backups/buku_tamu_digital_YYYY-MM-DD.sql` → **Go**
 
-### Opsi B — Migrate & Seed (tanpa backup)
+### Opsi B - Migrate & Seed (tanpa backup)
 
 ```bash
 php artisan migrate --seed
