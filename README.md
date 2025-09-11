@@ -10,6 +10,11 @@ Aplikasi Buku Tamu Digital dengan autentikasi (Laravel Breeze), manajemen tamu (
 - **Upload Foto & TTD**: foto tamu, tanda tangan digital (signature pad)
 - **Role**: Admin (full akses), Resepsionis (input & lihat)
 
+## 🔄 Alur Singkat
+1. Login sesuai role
+2. **Resepsionis** menginput tamu (opsional: foto + TTD), simpan
+3. **Admin** memantau dashboard & menjalankan export laporan
+
 ## 🧰 Tech Stack
 - PHP 8.1+, **Laravel 10**
 - MySQL
