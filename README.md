@@ -78,6 +78,9 @@ Buka `http://127.0.0.1:8000`
 ---
 
 ## 🗺️ Navigasi Menu
+* **Login**
+<img width="1901" height="879" alt="Screenshot 2025-09-12 024716" src="https://github.com/user-attachments/assets/cfaffe9d-226b-488d-8204-df8774302566" />
+
 
 * **Admin**
 
