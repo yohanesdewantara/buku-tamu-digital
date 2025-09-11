@@ -127,7 +127,6 @@ Buka `http://127.0.0.1:8000`
 
   * `APP_URL=http://127.0.0.1:8000`
   * `DB_*` sesuaikan dengan MySQL lokal
-  * (opsional) `FILESYSTEM_DISK=public` jika ingin default ke disk publik
 
 * **Storage**
 
