@@ -194,7 +194,6 @@ php artisan db:seed --class=GuestDummySeeder
 
 * Ganti password default setelah pertama kali login.
 * `.env` jangan di-commit.
-* 
 ---
 
 ## 👤 Kredit
